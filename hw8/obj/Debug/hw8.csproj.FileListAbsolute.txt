@@ -1,0 +1,5 @@
+C:\Users\Анастасия\RiderProjects\hw8\hw8\bin\Debug\hw8.exe
+C:\Users\Анастасия\RiderProjects\hw8\hw8\bin\Debug\hw8.pdb
+C:\Users\Анастасия\RiderProjects\hw8\hw8\obj\Debug\hw8.csprojResolveAssemblyReference.cache
+C:\Users\Анастасия\RiderProjects\hw8\hw8\obj\Debug\hw8.exe
+C:\Users\Анастасия\RiderProjects\hw8\hw8\obj\Debug\hw8.pdb
