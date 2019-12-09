@@ -4,13 +4,13 @@ namespace hw8
 {
     public class VisitorGetArea : IVisitor
     {
-        public void VisitCircle(Circle circle)
+        public void Visit(Circle circle)
         {
             Console.WriteLine(circle);
             Console.WriteLine($"And my area is {circle.Radius*circle.Radius*3.14}");
         }
 
-        public void VisitTriangle(Triangle tgl)
+        public void Visit(Triangle tgl)
         {
             Console.WriteLine(tgl);
             var area = 0.5 * ((tgl.Point1.X - tgl.Point3.X) * (tgl.Point2.Y - tgl.Point3.Y)
@@ -18,7 +18,7 @@ namespace hw8
             Console.WriteLine($"And my area is {Math.Abs(area)}");
         }
 
-        public void VisitRectangle(Rectangle rectangle)
+        public void Visit(Rectangle rectangle)
         {
             Console.WriteLine(rectangle);
             Console.WriteLine($"And my area is {rectangle.Width*rectangle.Height}");
