@@ -2,8 +2,8 @@
 {
     public interface IVisitor
     {
-        void VisitCircle(Circle circle);
-        void VisitTriangle(Triangle triangle);
-        void VisitRectangle(Rectangle rectangle);
+        void Visit(Circle circle);
+        void Visit(Triangle triangle);
+        void Visit(Rectangle rectangle);
     }
 }
