@@ -4,7 +4,7 @@ namespace hw8
 {
     public class VisitorDraw : IVisitor
     {
-        public void VisitCircle(Circle circle)
+        public void Visit(Circle circle)
         {
             Console.WriteLine(circle);
             Console.WriteLine("  **  ");
@@ -14,7 +14,7 @@ namespace hw8
             Console.WriteLine("  ** ");
         }
 
-        public void VisitTriangle(Triangle triangle)
+        public void Visit(Triangle triangle)
         {
             Console.WriteLine(triangle);
             Console.WriteLine("*    ");
@@ -24,7 +24,7 @@ namespace hw8
             Console.WriteLine("*    ");
         }
 
-        public void VisitRectangle(Rectangle rectangle)
+        public void Visit(Rectangle rectangle)
         {
             Console.WriteLine(rectangle);
             Console.WriteLine(".__________.");
