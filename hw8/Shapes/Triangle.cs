@@ -18,7 +18,7 @@ namespace hw8
         
         public void AcceptVisitor(IVisitor visitor)
         {
-            visitor.VisitTriangle(this);
+            visitor.Visit(this);
         }
 
         public override string ToString()
